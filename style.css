@@ -1,0 +1,150 @@
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #fdfdfd;
+  padding: 20px 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4d23c0;
+  position: sticky;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li,
+a {
+  margin-right: 20px;
+  color: #4d23c0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#about {
+  background-color: #b5e4ffee;
+  color: #020202;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img1 {
+  width: 15%;
+}
+
+#about-text {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+button {
+  width: 45%;
+  background-color: #4d23c0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 3px solid #4d23c0;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 40px;
+  font-size: large;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #4d23c0;
+}
+
+#projects {
+  color: #020202;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+    flex-direction: column;
+}
+
+#designs {
+  background-color: #4d23c0;
+  color: #dddddd;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#art {
+  color: #020202;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+        flex-direction: column;
+}
+
+#contact {
+  background-color: #b5e4ffee;
+  color: #020202;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+        flex-direction: column;
+}
+
+footer {
+  color: #4d23c0;
+  padding: 20px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+}
+
+div.gallery:hover {
+  border: 3px solid #191919;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
